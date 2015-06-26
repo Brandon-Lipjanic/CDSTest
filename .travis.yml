@@ -1,6 +1,6 @@
 language: java
 before_install:
-  - cd CDSStarter
+  - cd WebAppGettingStarted
 install:
   - ./gradlew check
 script:
