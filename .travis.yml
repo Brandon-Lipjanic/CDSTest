@@ -1,5 +1,4 @@
 language: java
 before_script:
   - cd CDSStarter
-before_install:
   - chmod +x gradlew
