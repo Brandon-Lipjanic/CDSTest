@@ -1,7 +1,5 @@
 language: java
-before_install:
+before_script:
   - cd CDSStarter
-install:
-  - ./gradlew check
 script:
   - ./gradlew build
