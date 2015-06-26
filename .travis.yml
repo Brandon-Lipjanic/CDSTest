@@ -2,6 +2,6 @@ language: java
 before_script:
   - cd CDSStarter
 install:
-  - true
+  - ./gradlew assemble
 script:
   - ./gradlew build
