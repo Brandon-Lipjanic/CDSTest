@@ -3,4 +3,4 @@ before_script:
   - cd CDSStarter
 script:
   - ./gradlew init
-  - gradle build 
+  - ./gradlew build 
