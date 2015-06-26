@@ -1,0 +1,19 @@
+Client Data Services Getting Started
+=======================
+
+This project contains the bare minimum required to develop a client data Server with Spring MVC.
+
+Prerequisites:
+
+- bash OR cywgin if on windows (Download at https://www.cygwin.com/)
+- siege (Download and follow instructions from https://www.joedog.org/siege-home/)
+
+Here are instructions to build it:
+
+1. Open the project directory in the terminal. (Either download the .zip file from the Portal itself or just obtain the project from the Github repository)
+
+2. Build and run the application by running the `./build.sh` script in the directory. This script will run `./gradlew build`, which will check whether or not gradle is currently installed on your machine. After it detects or has finished installing gradle, it will build the .jar file for the project. Once the .jar file has finished building, the application will be running and ready to view by following step 3.
+
+3. Visit http://localhost:8080 to view the application in your browser.
+
+4. Run ./siege.sh to run siege on your starter package.

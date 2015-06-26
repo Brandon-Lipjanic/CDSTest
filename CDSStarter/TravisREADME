@@ -1,0 +1,5 @@
+Instructions for getting started with Travis CI for your Github Repository
+
+1. Go to http://docs.travis-ci.com/user/getting-started/ and follow the first two instructions, since we have included a getting started .travis.yml folder in this project.
+
+2. Push changes and go to https://travis-ci.org/ to see your build.
