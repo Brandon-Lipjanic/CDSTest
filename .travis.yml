@@ -1,4 +1,7 @@
 language: java
 before_script:
   - cd CDSStarter
-  - chmod +x gradlew
+install:
+  - true
+script:
+  - ./gradlew build
