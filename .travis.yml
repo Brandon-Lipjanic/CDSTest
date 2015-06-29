@@ -1,3 +1,4 @@
 language: java
 before_script:
   - cd CDSStarter
+  - ./gradlew check --stacktrace --info --debug
