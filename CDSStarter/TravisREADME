@@ -1,5 +1,17 @@
 Instructions for getting started with Travis CI for your Github Repository
 
-1. Go to http://docs.travis-ci.com/user/getting-started/ and follow the first two instructions, since we have included a getting started .travis.yml folder in this project.
+Prerequisites:
+1. GitHub Account in the aaa-ncnu-ie organization
+2. GitHub Repository in the aaa-ncnu-ie organization
 
-2. Push changes and go to https://travis-ci.org/ to see your build.
+Instructions:
+1. Sign into Travis CI (http://travis-ci.com) with your GitHub account.
+
+2. Access the aaa-ncnu-ie organization repositories on Travis (Or your own repositories if you are just testing)
+
+3. Enable Travis CI for your repository
+
+4. Add a .travis.yml file into the top level of your repository.
+   (We have included a .travis.yml file that works with this specific project)
+
+5. Push changes to your repository and view it on Travis CI to see your build.
